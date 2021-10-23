@@ -61,4 +61,11 @@ public class TestCalculadora {
         Calculadora calc = new Calculadora();
         assertEquals(-64.0, calc.cubo(-4.0), 0);
     }
+
+     //Pruebas unitarias para el ^4
+    @Test
+    public void testalacuatro() {
+        Calculadora calc = new Calculadora();
+        assertEquals(-64.0, calc.aCuatro(-4.0), 0);
+    }
 }
